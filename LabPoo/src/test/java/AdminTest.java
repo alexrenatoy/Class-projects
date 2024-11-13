@@ -4,8 +4,7 @@ import java.util.ArrayList;
 import static org.junit.jupiter.api.Assertions.assertEquals;
 
 public class AdminTest {
-    private Admin admin;
-
+    private Admin admin;        
     @BeforeEach
     public void setUp() {
         admin = new Admin("María", 35, "Femenino", new ArrayList<>());
