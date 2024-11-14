@@ -3,7 +3,7 @@ import { Humano, IUsuario } from "./interfaces";
 class Persona implements Humano {
     public nombre: string;
     public edad: number;
-    public sexo: string;    
+    public sexo: string;        
 
     constructor(nombre: string, edad: number, sexo: string) {
         this.nombre = nombre;
@@ -36,7 +36,7 @@ class Persona implements Humano {
 
     public setSexo(sexo: string): void {
         this.sexo = sexo;
-    }
+    }    
 }
 
 abstract class Usuario implements IUsuario {
