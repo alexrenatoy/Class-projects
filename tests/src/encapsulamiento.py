@@ -34,3 +34,5 @@ class Planta:
     def get_clima(self) -> str:
         return self.__clima
     
+    def exponer(self) -> str:
+        return f"Nombre: {self.get_nombre()}, Origen: {self.get_origen()}, Clima: {self.get_clima()}"
